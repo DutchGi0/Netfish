@@ -37,13 +37,19 @@ foreach ($users as $user) { ?>
         <label for="name" class="form-label">Name:</label>
             <input type="text" class="form-control" id="name" name="name" value="<?php echo $user[
                 'name'
-            ]; ?>" />
+            ]; ?>"/>
         </div>
         <div class="mb-3">
             <label for="username" class="form-label">Username:</label>
             <input type="text" class="form-control" id="username" name="username"  value="<?php echo $user[
                 'username'
-            ]; ?>" />
+            ]; ?>" readonly/>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="text" class="form-control" id="email" name="email"  value="<?php echo $user[
+                'email'
+            ]; ?>" readonly/>
         </div>
         <div class="mb-3">
             <label for="is_admin" class="form-label">Is admin:</label>
@@ -55,7 +61,7 @@ foreach ($users as $user) { ?>
         </div>
         <br>
         <button type="submit" name="submit" class="btn btn-dark uppercase">EDIT USER</button>
-        <span class="right"><a href="index.php?page=user_overview" class="text-red" style="text-decoration: none;">Terug</a></span>
+        <span class="right"><a href="index.php?page=user_overview" class="text-red" style="text-decoration: none;">Back</a></span>
     </form>
 </div>
 <?php }

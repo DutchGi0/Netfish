@@ -49,7 +49,7 @@ if (!isset($_SESSION['ID'])) {
                 <input type="text" class="form-control" name="genre" id="genre" aria-describedby="GenreHelp">
             </div>
             <button class="btn btn-dark uppercase" name="submit" type="submit">Add new movie</button>
-            <span class="right"><a class="text-red" style="text-decoration: none;" href="index.php?page=movie_overview">Terug</a></span>
+            <span class="right"><a class="text-red" style="text-decoration: none;" href="index.php?page=movie_overview">Back</a></span>
 
             <?php if (isset($_POST['submit'])) {
                 // Uploads to server

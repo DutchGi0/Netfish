@@ -57,7 +57,7 @@ if (!isset($_SESSION['ID'])) {
             </tbody>
         </table>
         <input type="submit" class="btn btn-dark" value="Submit">
-        <span class="right"><a class="text-red" style="text-decoration: none;" href="index.php?page=profile">Terug</a></span>
+        <span class="right"><a class="text-red" style="text-decoration: none;" href="index.php?page=profile">Back</a></span>
         </form>
     <?php
     }

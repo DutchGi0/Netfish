@@ -59,7 +59,7 @@ foreach ($movies as $movie) { ?>
         </div>
         <br>
         <button type="submit" name="submit" class="btn btn-dark">EDIT MOVIE</button>
-        <span class="right"><a href="index.php?page=movie_overview" class="text-red" style="text-decoration: none;">Terug</a></span>
+        <span class="right"><a href="index.php?page=movie_overview" class="text-red" style="text-decoration: none;">Back</a></span>
     </form>
 </div>
 <?php }
